@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import css from "./Statistics.module.css";
-import { getRandomColor } from './gerRandomColor';
+import { getRandomColor } from '../../helpers/gerRandomColor';
 
 const StatisticIteam =({id,label,percentage})=>{
     return(
